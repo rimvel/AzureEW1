@@ -16,7 +16,7 @@ Import-Module -Name AzureRM
 
 - Git (https://git-scm.com/download/win)
 
-[64-bit](https://github.com/git-for-windows/git/releases/download/v2.16.2.windows.1/Git-2.16.2-64-bit.exe)
+[64-bit](https://github.com/git-for-windows/git/releases/download/v2.16.2.windows.1/Git-2.16.2-64-bit.exe),
 [32-bit](https://github.com/git-for-windows/git/releases/download/v2.16.2.windows.1/Git-2.16.2-32-bit.exe)
 
 # Description
