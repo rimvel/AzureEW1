@@ -26,9 +26,9 @@ Import-Module -Name AzureRM
 - C
 
 
-# Let's do it!
+# 3 Let's do it!
 
-## Clone repository
+## 3.1 Clone repository
 Ensure you have Git for Windows installed.
 Open a PowerShell console and type the following:
 
@@ -38,7 +38,7 @@ Set-Location c:\xxx\step1\
 ```
 ![git-clone-repository][git-clone-repository]
 
-## Login to Azure Powershell
+## 3.2 Login to Azure Powershell
 Still in the PowerShell console, type the following:
 
 ``` powerhell
