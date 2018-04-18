@@ -24,3 +24,50 @@ Import-Module -Name AzureRM
 - A
 - B
 - C
+
+
+# Requirements
+* [Azure PowerShell Module version 5.xx](https://github.com/Azure/azure-powershell/releases/tag/v5.2.0-January2018)
+* [Git for Windows](https://git-scm.com/download/win)
+
+In an Administrator PowerShell console window, type:
+
+``` powershell
+Install-Module -Name AzureRM -RequiredVersion 5.2.0 -Force
+```
+
+# Let's code!
+## Clone repository
+Ensure you have Git for Windows installed.
+
+Open a PowerShell console and type the following:
+
+``` powershell
+git clone https://github.com/rimvel/GlobalAzureBootcamp2018.git c:\gab2018\
+
+Set-Location c:\gab2018\step1\
+```
+![git-clone-repository][git-clone-repository]
+
+## Provision OMS
+Still in the PowerShell console, type the following:
+
+``` powerhell
+Login-AzureRmAccount
+```
+
+Enter your credentials
+
+Select the desired subscription using:
+
+``` powershell
+Get-AzureRmSubscription
+
+Set-AzureRmContext -Subscription 'MySubscriptionName'
+```
+
+Invoke the provisioning by typing:
+
+``` powershell
+& .\Invoke-Provisioning.ps1
+```
